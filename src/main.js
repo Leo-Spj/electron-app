@@ -22,6 +22,13 @@ const template = [
                 click() {
                     app.quit();
                 }
+            },
+            {
+                label: 'About',
+                accelerator: 'Ctrl+A',
+                click() {
+                    console.log('About');
+                }
             }
         ]
     },
